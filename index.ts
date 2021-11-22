@@ -8,4 +8,5 @@ app.get("/", () => {
 
 app.listen(port, () => {
     console.log("Yeyyy Server Started");
+    console.log(`http://localhost:${port}/`);
 });
